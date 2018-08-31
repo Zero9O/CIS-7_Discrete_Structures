@@ -20,7 +20,7 @@ int main()
 		char c = input[i];
 		if (c == ' ')
 			continue;
-		if (c == '^' || c == '!' || c == 'V' || c == 'v')
+		if (c == '^' || c == '!' || toupper(c) == 'V')
 		{
 			if (c != '!')
 			{
