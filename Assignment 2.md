@@ -6,8 +6,12 @@ q' -> p'   <=>  q' -> p'  Implication
 
 -----------------------------------------------------------------------------
 
-(p -> r) ^ (q -> r)                           <=> (p v q) -> r
-(p' v r) ^ (q -> r)                           <=> (p v q) -> r   Implication
-(p' ^ (q -> r)) v (r ^ (q -> r))              <=> (p v q) -> r   Distributive
-(p' ^ (q' v r)) v (r ^ (q' v r))              <=> (p v q) -> r   Implication
-((p' ^ q') v (p' ^ r)) v ((r ^ q') v (r ^ r)) <=> (p v q) -> r   Distributive
+(p -> r) ^ (q -> r)     <=> (p v q) -> r
+(p' v r) ^ (q' v r)     <=> (p v q)' v r         Implication
+(p' v r) ^ (q' v r)     <=> (p' ^ 'q) v r        DeMorgan's
+(p' v r) ^ (q' v r)     <=> (p' v r) ^ (q' v r)  Distributive
+
+-----------------------------------------------------------------------------
+
+(Ǝx)A(x) ^ (Ǝx)B(x) -> (Ǝx)(A(x) ^ B(x))
+
