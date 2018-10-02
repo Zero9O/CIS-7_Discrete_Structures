@@ -1,3 +1,4 @@
+## Part 1:
 ```
 p -> q     <=>  q' -> p'
 p' v q     <=>  q' -> p'   Implication
