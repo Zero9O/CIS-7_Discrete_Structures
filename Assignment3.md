@@ -7,3 +7,4 @@ If mathematics is easy then the homework is done and if it is sunny then camping
 ```
 (S ^ H) -> (M v C)
 ```
+## Part 2:
