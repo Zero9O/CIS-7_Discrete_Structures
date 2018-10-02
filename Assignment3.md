@@ -42,7 +42,16 @@ Tautology
  - [ ] (q ∨ r ) → p, (q → p)∧(r → p)
  ```
  (q v r) -> p <=> (q -> p) ^ (r -> p)
- (q v r)' v p <=> (q' v p) ^ (r' v p) Implication x3
- (q v r)' v p <=> (q' ^ r') v p       Distributive
- (q v r)' v p <=> (q v r)' v p        De Morgan's
+ (q v r)' v p <=> (q' v p) ^ (r' v p)  Implication x3
+ (q v r)' v p <=> (q' ^ r') v p        Distributive
+ (q v r)' v p <=> (q v r)' v p         De Morgan's
+ ```
+## Part 4:
+ - [ ] Translate into English: ∃x∀y∀z(City(x) ∧ Traveler (y)∧Li ves(z,x)) → (Loves(y,x)∧ ¬Loves(z,x))
+ ```
+ There exists some city where all travelers love it and everyone who lives there doesn't love it.
+ ```
+ - [ ] Translate into Predicate Logic: “No traveler loves the city they live in.”
+ ```
+ ∀x∀y (City(x) ^ Traveler(y) ^ Lives(y,x)) -> ¬Love(y,x)
  ```
