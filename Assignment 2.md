@@ -1,8 +1,10 @@
+```
 p -> q     <=>  q' -> p'
 p' v q     <=>  q' -> p'  Implication
 q v p'     <=>  q' -> p'  Commutative
 (q')' v p' <=>  q' -> p'  Double Negative
 q' -> p'   <=>  q' -> p'  Implication
+```
 
 -----------------------------------------------------------------------------
 
