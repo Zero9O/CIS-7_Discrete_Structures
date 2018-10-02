@@ -28,3 +28,21 @@ Tautology
 | T | F | F  | F      | T       |F                     |T                            |
 | F | T | T  | T      | T       |T                     |F                            |
 | F | F | T  | T      | T       |T                     |F                            |
+
+```
+```
+## Part 3:
+ - [ ] (p ∧ q) → r , p → (q → r )
+ ```
+ (p ^ q) -> r  <=> p -> (q -> r)
+ (p ^ q)' v r  <=> p' v (q' v r)   Implication x3
+ (p ^ q)' v r  <=> (p' v q') v r)  Associative
+ (p ^ q)' v r  <=> (p ^ q)' v r    De Morgan's
+ ```
+ - [ ] (q ∨ r ) → p, (q → p)∧(r → p)
+ ```
+ (q v r) -> p <=> (q -> p) ^ (r -> p)
+ (q v r)' v p <=> (q' v p) ^ (r' v p) Implication x3
+ (q v r)' v p <=> (q' ^ r') v p       Distributive
+ (q v r)' v p <=> (q v r)' v p        De Morgan's
+ ```
