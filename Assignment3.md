@@ -10,9 +10,9 @@ If mathematics is easy then the homework is done and if it is sunny then camping
 ## Part 2:
 - [ ] Use a truth table to determine whether this is a tautology, contradiction, or neither:  (¬B → ¬A) → ((¬B → A) → B)
 
-| A | B | ¬A | ¬B | ¬B -> ¬A | ¬B -> A | ((¬B -> A) -> B
-|---|---|--- |--- | -------- | ------- | ---------------
-| T | T | F  | F  | T        |         |
-| T | F | F  | T  | F        |         |
-| F | T | T  | F  | T        |         |
-| F | F | T  | T  | T        |         |
+| A | B | ¬A | ¬B | ¬B -> ¬A | ¬B -> A | ((¬B -> A) -> B|
+|---|---|--- |--- | -------- | ------- | ---------------|
+| T | T | F  | F  | T        |    T    |
+| T | F | F  | T  | F        |    F    |
+| F | T | T  | F  | T        |    T    |
+| F | F | T  | T  | T        |    T    |
