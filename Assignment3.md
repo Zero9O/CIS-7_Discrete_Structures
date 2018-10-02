@@ -30,6 +30,7 @@ Tautology
 | F | F | T  | T      | T       |T                     |F                            |
 
 ```
+Neither
 ```
 ## Part 3:
  - [ ] (p ∧ q) → r , p → (q → r )
