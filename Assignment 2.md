@@ -19,5 +19,4 @@ q' -> p'   <=>  q' -> p'   Implication
  - [ ] Give an interpretation to prove that the following wff is not valid:
  (Ǝx)A(x) ^ (Ǝx)B(x) -> (Ǝx)(A(x) ^ B(x))  
 ``
-(Ǝx)A(x) ^ (Ǝx)B(x) -> (Ǝx)(A(x) ^ B(x))
 ``
