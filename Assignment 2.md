@@ -19,4 +19,6 @@ q' -> p'   <=>  q' -> p'   Implication
  - [ ] Give an interpretation to prove that the following wff is not valid:
  (Ǝx)A(x) ^ (Ǝx)B(x) -> (Ǝx)(A(x) ^ B(x))  
 ``
+Function A equals a car and function B is a motorcycle.
+x is the number of wheels.
 ``
