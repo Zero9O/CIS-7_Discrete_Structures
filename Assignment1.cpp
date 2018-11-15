@@ -7,34 +7,49 @@ int main()
 {
 	string input;
 
-	cout << "Enter a string (Only use ^, V, !, A-Z): ";
+	cout << "Enter a string (Only use ^, V, !, ->, A-Z): ";
 	getline(cin, input);
 
 	bool lastWasAlpha = false;
 	bool lastWasNot = false;
 	bool lastWasConnector = false;
 	bool isValidWff = true;
+	bool lastWasPart = false;
 
 	for (unsigned int i = 0; i < input.length(); i++)
 	{
 		char c = input[i];
 		if (c == ' ')
 			continue;
-		if (c == '^' || c == '!' || toupper(c) == 'V')
+		if (c == '^' || c == '!' || toupper(c) == 'V' || c == '-' || c == '>')
 		{
 			if (c != '!')
 			{
-				if (!lastWasAlpha)
+				if (!lastWasAlpha || lastWasPart)
 				{
-					isValidWff = false;
+					if (c == '>')
+					{
+						lastWasConnector = true;
+						break;
+					}
+					else
+					{
+						isValidWff = false;
+						break;
+					}
+				}
+				else if (c == '-')
+				{
+					lastWasPart = true;
 					break;
 				}
-				lastWasConnector = true;
+				else
+					lastWasConnector = true;
 			}
 			else
 			{
 				if (lastWasAlpha)
-				{
+				{	
 					isValidWff = false;
 					break;
 				}
