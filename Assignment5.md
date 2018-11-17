@@ -15,7 +15,20 @@ b² is even <- Contradiction
 If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
 ```
 Exhaustion
+n=m²=a²+b²
 
+If n=25
+5²=4²+3²
+  =16+9
+  =25
+If n=100
+10²=8²+6²
+   =64+36
+   =100
+If n=169
+13²=12²+5²
+   =144+24
+   =169
 ```
 The sum of two odd integers is even. Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1
 ```
