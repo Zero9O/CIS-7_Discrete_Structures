@@ -78,4 +78,16 @@ Let k=m+n²+n
 ```
 Prove that for n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers Hint: 4^(3+1) = 4 * 4^3 Hint: If 9^n - 1 = 8m, then 9^n = 8m + 1
 ```
+Base case: Assume n=1
+9¹-1=8, Divisible by 8
+9^n-1=8m
+9^n=8m+1
+
+9^(n+1)-1=8m
+  9*9^n-1=8m
+9(8m+1)-1=8m
+  72m+9-1=8m
+  8(9m+1)=8m
+Let k=9m+1
+       8k=8m
 ```
