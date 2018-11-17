@@ -20,7 +20,6 @@ public:
 				this->pushDisk(to_string(i));
 			}
 		}
-
 	}
 	string name;
 
@@ -33,7 +32,6 @@ public:
 	{
 		this->disks.pop_back();
 	}
-
 	string print()
 	{
 		string output = "Tower " + this->name + ": ";
