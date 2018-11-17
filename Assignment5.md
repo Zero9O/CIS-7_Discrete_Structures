@@ -32,6 +32,14 @@ If n=169
 ```
 The sum of two odd integers is even. Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1
 ```
+Direct
+Let a=2k+1 and b=2m+1
+a+b=(2k+1)+(2m+1)
+   =2k+2m+2
+   =2(k+m+1)
+Let c=k+m+1
+a+b=2c
+The sum of 2 odd integers is even.
 ```
 The sum of an even integer and it's square is even
  ```
