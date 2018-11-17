@@ -46,10 +46,10 @@ The sum of an even integer and it's square is even
 Direct
 2n=even integer
 2n+(2n)²=2m
-  4n²+2n=2m
+   4n²+2n=2m
 2(2n²+n)=2m
 Let k=2n²+n
-      2k=2m
+       2k=2m
 Even number by definition
 ```
 If n squared is odd, then n is odd
