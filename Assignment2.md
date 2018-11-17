@@ -1,5 +1,5 @@
 # Part 1:
-- [ ] Show that p->q and q' -> p' are logically equivalent without using truth tables or a "contrapositive" law (don't assume they are true)
+- Show that p->q and q' -> p' are logically equivalent without using truth tables or a "contrapositive" law (don't assume they are true)
 ```
 p -> q     <=>  q' -> p'
 p' v q     <=>  q' -> p'   Implication
