@@ -1,1 +1,1 @@
-
+The video that I found the most useful was the mathematical induction video. The ladder analogy really helped me visualize what I am trying to do with induction. It helped me understand that as long as you can prove that k+1 is true then it is all true.
