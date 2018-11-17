@@ -4,10 +4,13 @@ Show that the square root of 2 is irrational.
 Contradiction
 Assume: √2 is rationial
 Let √2=a/b, a/b being simplified to lowest terms
-2a^2 is even so a^2 is also even
+2a^2 is even so a² is also even
 If a is even then a=2k
-2=(2k)^2/b^2
-2=
+2=(2k)²/b²
+2=4k²/b²
+2b²=4k²
+b²=2k²
+b² is even <- Contradiction
 ```
 If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
 ```
