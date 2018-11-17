@@ -14,6 +14,8 @@ b² is even <- Contradiction
 ```
 If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
 ```
+Exhaustion
+
 ```
 The sum of two odd integers is even. Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1
 ```
@@ -27,6 +29,13 @@ If n squared is odd, then n is odd
 # Part 2:
  Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
 ```
+Base case: Assume n=1
+1=1(2(1)-1)
+1=1  True
+1+5+9+...+(4n-3)+(4(n+1)-3)=n+1(2(n+1)-1)
+             n(2n-1)+(4n+1)=n+1(2n+1)
+                 2n²-n+4n+1=2n²+n+2n+1
+                   2n²+3n+1=2n²+3n+1
 ```
 Prove that for any positive integer number n, n^3 + 2n is divisible by 3
 ```
