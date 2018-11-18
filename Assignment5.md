@@ -54,8 +54,15 @@ Even number by definition
 ```
 If n squared is odd, then n is odd
 ```
-Contradiction
-
+Contrapositive
+If n squared is not odd, then n is not odd
+Let n=2m
+n²=(2m)²
+  =4m²
+  =2(2m²)
+Let k=2m²
+n²=2k
+Since the contraposition is true, the original must be true.
 ```
 # Part 2:
  Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
