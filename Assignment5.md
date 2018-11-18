@@ -61,7 +61,7 @@ n²=(2m)²
   =4m²
   =2(2m²)
 Let k=2m²
-n²=2k
+n²=2k, Not odd
 Since the contraposition is true, the original must be true.
 ```
 # Part 2:
