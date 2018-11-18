@@ -16,7 +16,7 @@ q' -> p'   <=>  q' -> p'   Implication
 (p' v r) ^ (q' v r)   <=>   (p' v r) ^ (q' v r)   Distributive
 ```
 -----------------------------------------------------------------------------
- u Give an interpretation to prove that the following wff is not valid:
+ - Give an interpretation to prove that the following wff is not valid:
  (Ǝx)A(x) ^ (Ǝx)B(x) -> (Ǝx)(A(x) ^ B(x))  
 ``
 Function A is a car and function B is a motorcycle.
