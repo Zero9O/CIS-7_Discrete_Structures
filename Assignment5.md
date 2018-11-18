@@ -1,5 +1,5 @@
 # Part 1:
-Show that the square root of 2 is irrational.
+-Show that the square root of 2 is irrational.
 ```
 Contradiction
 Assume: √2 is rationial
@@ -12,7 +12,7 @@ If a is even then a=2k
 b²=2k²
 b² is even <- Contradiction
 ```
-If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
+- If n = 25, 100, or 169, then n is a perfect square and is the sum of two perfect squares.
 ```
 Exhaustion
 n=m²=a²+b²
