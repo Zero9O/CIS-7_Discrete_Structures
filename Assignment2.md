@@ -1,5 +1,5 @@
 # Part 1:
-Show that p->q and q' -> p' are logically equivalent without using truth tables or a "contrapositive" law (don't assume they are true)
+- Show that p->q and q' -> p' are logically equivalent without using truth tables or a "contrapositive" law (don't assume they are true)
 ```
 p -> q     <=>  q' -> p'
 p' v q     <=>  q' -> p'   Implication
@@ -8,7 +8,7 @@ q v p'     <=>  q' -> p'   Commutative
 q' -> p'   <=>  q' -> p'   Implication
 ```
 -----------------------------------------------------------------------------
-Show that (p->r) ^ (q->r) <=> (p v q) -> r
+- Show that (p->r) ^ (q->r) <=> (p v q) -> r
 ```
 (p -> r) ^ (q -> r)   <=>   (p v q) -> r
 (p' v r) ^ (q' v r)   <=>   (p v q)' v r          Implication
@@ -16,7 +16,7 @@ Show that (p->r) ^ (q->r) <=> (p v q) -> r
 (p' v r) ^ (q' v r)   <=>   (p' v r) ^ (q' v r)   Distributive
 ```
 -----------------------------------------------------------------------------
- Give an interpretation to prove that the following wff is not valid:
+ u Give an interpretation to prove that the following wff is not valid:
  (Ǝx)A(x) ^ (Ǝx)B(x) -> (Ǝx)(A(x) ^ B(x))  
 ``
 Function A is a car and function B is a motorcycle.
