@@ -1,5 +1,5 @@
 # Part 1:
--Show that the square root of 2 is irrational.
+- Show that the square root of 2 is irrational.
 ```
 Contradiction
 Assume: √2 is rationial
@@ -30,7 +30,7 @@ If n=169
    =144+24
    =169
 ```
-The sum of two odd integers is even. Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1
+- The sum of two odd integers is even. Hint: By definition, even integers can be expressed as 2n, thus odd integers can be expressed as 2n + 1
 ```
 Direct
 Let a=2k+1 and b=2m+1
@@ -41,7 +41,7 @@ Let c=k+m+1
 a+b=2c
 The sum of 2 odd integers is even.
 ```
-The sum of an even integer and it's square is even
+- The sum of an even integer and it's square is even
  ```
 Direct
 2n=even integer
@@ -52,7 +52,7 @@ Let k=2n²+n
        2k=2m
 Even number by definition
 ```
-If n squared is odd, then n is odd
+- If n squared is odd, then n is odd
 ```
 Contrapositive
 If n squared is not odd, then n is not odd
@@ -65,7 +65,7 @@ n²=2k, Not odd
 Since the contraposition is true, the original must be true.
 ```
 # Part 2:
- Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
+ - Prove by induction that 1 + 5 + 9 + ... + (4n-3) = n(2n-1)
 ```
 Base case: Assume n=1
 1=1(2(1)-1)
@@ -76,7 +76,7 @@ Base case: Assume n=1
                  2n²-n+4n+1=2n²+n+2n+1
                    2n²+3n+1=2n²+3n+1
 ```
-Prove that for any positive integer number n, n^3 + 2n is divisible by 3
+- Prove that for any positive integer number n, n^3 + 2n is divisible by 3
 ```
 Base case: Assume n=1
 1³+2(1)=1+2=3, Divisible by 3
@@ -90,7 +90,7 @@ n³+2n²+n+n²+2n+1+2n+2=3m
 Let k=m+n²+n
                    3k=3m             
 ```
-Prove that for n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers Hint: 4^(3+1) = 4 * 4^3 Hint: If 9^n - 1 = 8m, then 9^n = 8m + 1
+- Prove that for n >= 1, 9^n − 1 is divisible by 8 for all non-negative integers Hint: 4^(3+1) = 4 * 4^3 Hint: If 9^n - 1 = 8m, then 9^n = 8m + 1
 ```
 Base case: Assume n=1
 9¹-1=8, Divisible by 8
