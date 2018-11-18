@@ -40,7 +40,7 @@ Neither
  (p ^ q)' v r  <=> (p' v q') v r)  Associative
  (p ^ q)' v r  <=> (p ^ q)' v r    De Morgan's
  ```
- - [ ] (q ∨ r ) → p, (q → p)∧(r → p)
+ - (q ∨ r ) → p, (q → p)∧(r → p)
  ```
  (q v r) -> p <=> (q -> p) ^ (r -> p)
  (q v r)' v p <=> (q' v p) ^ (r' v p)  Implication x3
@@ -52,7 +52,7 @@ Neither
  ```
  There exists some city where all travelers love it and everyone who lives there doesn't love it.
  ```
- - [ ] Translate into Predicate Logic: “No traveler loves the city they live in.”
+ - Translate into Predicate Logic: “No traveler loves the city they live in.”
  ```
  ∀x∀y (City(x) ^ Traveler(y) ^ Lives(y,x)) -> ¬Love(y,x)
  ```
